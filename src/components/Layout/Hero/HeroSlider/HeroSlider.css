@@ -1,0 +1,113 @@
+.hero-slide {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+}
+
+.slide-data {
+  padding-bottom: 11.875rem;
+  display: flex;
+  position: absolute;
+  left: 0;
+  z-index: 1;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 0.625rem;
+}
+
+.slide-data > span:nth-child(1) {
+  font-size: 0.6875rem;
+  font-family: 'League Spartan';
+  color: rgba(93, 168, 239, 0.902);
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.48rem;
+}
+
+.slide-data > span:nth-child(2) {
+  font-size: 3.875rem;
+  font-family: 'Playfair Display';
+  color: rgb(11, 12, 17);
+  font-weight: bold;
+}
+
+.slide-data > p {
+  font-size: 0.875rem;
+  font-family: 'Poppins';
+  color: rgb(143, 143, 143);
+  line-height: 1.714;
+  padding: 0;
+  margin: 0;
+  letter-spacing: 0.4px;
+  white-space: pre-line;
+}
+
+.hero-slide-image {
+  width: 63.5rem;
+  height: 35.75rem;
+  margin: 0rem 6.6875rem 11.875rem 0;
+  box-shadow: -15.898px 25.441px 65px 0px rgba(11, 12, 17, 0.2);
+  overflow: hidden;
+}
+
+.slider-control-bottomleft {
+  padding-bottom: 11.875rem;
+}
+
+.hero-slide-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.hero-slide-controls > :nth-child(1) {
+  background-color: transparent;
+  border: 0;
+  padding-right: 0.75rem;
+  cursor: pointer;
+}
+
+.hero-slide-controls > :nth-child(1) > * {
+  background-color: transparent;
+  fill: rgb(235, 235, 235);
+}
+
+.hero-slide-controls > :nth-child(2) {
+  font-size: 0.625rem;
+  font-family: 'League Spartan';
+  color: rgb(93, 168, 239);
+  font-weight: bold;
+  text-align: center;
+}
+
+.hero-slide-controls > :nth-child(3) {
+  font-size: 0.625rem;
+  font-family: 'League Spartan';
+  color: rgb(235, 235, 235);
+  font-weight: bold;
+  text-align: center;
+}
+
+.hero-slide-controls > :nth-child(4) {
+  font-size: 0.625rem;
+  font-family: 'League Spartan';
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+.hero-slide-controls > :nth-child(5) {
+  background-color: transparent;
+  border: 0;
+  padding-left: 0.75rem;
+  cursor: pointer;
+}
+
+.hero-slide-controls > :nth-child(5) > * {
+  background-color: transparent;
+  fill: rgb(235, 235, 235);
+}

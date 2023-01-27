@@ -1,0 +1,81 @@
+.subscribe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  padding: 0rem 0 0 0;
+}
+
+.subscribe > div > span {
+  font-size: 2.625rem;
+  font-family: 'Playfair Display';
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+  letter-spacing: 0.0313rem;
+  line-height: 1.571;
+  text-align: center;
+}
+
+.subscribe-bg {
+  background-image: url('@/assets/images/bg-subscribe.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  top: -25rem;
+  left: 0;
+  position: absolute;
+  width: 90rem;
+  height: 61.5rem;
+  z-index: -3;
+}
+
+.subscribe > p {
+  font-size: 0.875rem;
+  font-family: 'Poppins';
+  color: rgba(97, 97, 97, 0.651);
+  line-height: 1.714;
+  text-align: center;
+}
+
+.input-email {
+  width: 36.875rem;
+  display: flex;
+  padding-bottom: 9.25rem;
+}
+
+.input-email > input {
+  background-color: rgb(245, 245, 245);
+  box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.03);
+  border: 0;
+  width: 100%;
+  padding-left: 1.875rem;
+  height: 3.125rem;
+}
+
+.input-email > input::placeholder {
+  font-size: 0.6875rem;
+  font-family: 'League Spartan';
+  color: rgba(51, 51, 51, 0.902);
+  font-weight: 700;
+  letter-spacing: 0.25rem;
+  padding-left: 1.875rem;
+  text-transform: uppercase;
+  line-height: 7.333;
+  text-align: left;
+}
+
+.input-email > button {
+  background-color: rgb(93, 168, 239);
+  width: 3.125rem;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  align-items: center;
+  height: 3.125rem;
+}
+
+.input-email > button > * {
+  background-color: transparent;
+  fill: rgb(235, 235, 235);
+}

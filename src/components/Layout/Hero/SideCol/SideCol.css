@@ -1,0 +1,33 @@
+.sidecol {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: space-between;
+  flex-direction: column;
+  height: 100%;
+  right: 3.125rem;
+  top: 0;
+}
+
+.sidecol > span {
+  writing-mode: vertical-rl;
+  margin-top: -5rem;
+  rotate: 180deg;
+  font-size: 0.6875rem;
+  font-weight: bold;
+  letter-spacing: 0.375rem;
+  font-family: 'League Spartan';
+  color: rgba(11, 12, 17, 0.2);
+  text-transform: uppercase;
+}
+
+.sidecol > ul {
+  padding-bottom: 11.875rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.875rem;
+}
+
+.sidecol > ul > * {
+  fill: rgb(235, 235, 235);
+}

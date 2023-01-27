@@ -1,0 +1,39 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 6.125rem 0;
+}
+
+.footer-links {
+  display: flex;
+  font-family: 'League Spartan', sans-serif;
+  font-size: 0.6875rem;
+  letter-spacing: 0.3125rem;
+  justify-content: flex-start;
+  font-weight: bold;
+  padding: 2.5rem 0;
+  text-align: left;
+  text-transform: uppercase;
+  align-items: center;
+  list-style: none;
+  gap: 2.875rem;
+}
+
+.footer-links > * {
+  cursor: pointer;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.875rem;
+}
+
+.footer-social > * {
+  cursor: pointer;
+  background-color: transparent;
+  fill: rgb(235, 235, 235);
+}

@@ -1,0 +1,14 @@
+.main {
+  width: 100%;
+  position: relative;
+}
+
+.line::before {
+  content: '';
+  display: block;
+  margin: 3.75rem auto 3.75rem auto;
+  position: relative;
+  width: 0.125rem;
+  height: 6.25rem;
+  background-color: #5da8ef;
+}

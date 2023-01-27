@@ -1,0 +1,132 @@
+.shop {
+  display: flex;
+  padding-top: 14.375rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.shop > span:nth-child(1) {
+  font-size: 0.6875rem;
+  font-family: 'League Spartan';
+  color: rgb(93, 168, 239);
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.3125rem;
+  text-align: center;
+}
+.shop > span:nth-child(3) {
+  font-size: 2.625rem;
+  font-family: 'Playfair Display';
+  color: rgb(51, 51, 51);
+  width: 100%;
+  font-weight: bold;
+  text-align: center;
+}
+.bg {
+  background-image: url('@/assets/images/bg-shop.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  top: 98.25rem;
+  position: absolute;
+  width: 90rem;
+  height: 61.5rem;
+  z-index: -3;
+}
+
+.shop-slider-container {
+  width: 100%;
+}
+
+.shop-slider-container > div {
+  padding: 0 6.6875rem 2rem 6.6875rem;
+}
+
+.shop-slide {
+  display: flex;
+  justify-content: flex-start;
+  width: max-content;
+  align-items: center;
+  padding: 3.125rem 0 5rem 0;
+  position: relative;
+}
+
+.item-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15.625rem;
+}
+
+.item-img > img {
+  max-height: 25.625rem;
+  -webkit-filter: drop-shadow(
+    -0.25rem -1.875rem 1.5625rem rgba(11, 12, 17, 0.14)
+  );
+  filter: drop-shadow(-0.25rem -1.875rem 1.5625rem rgba(11, 12, 17, 0.14));
+}
+
+.item-img::before {
+  content: '';
+  width: 15.625rem;
+  display: block;
+  position: absolute;
+  bottom: 3rem;
+  z-index: -1;
+  right: 0;
+  left: 0;
+  height: 20rem;
+  background-color: #ececec;
+}
+
+.item-data {
+  display: flex;
+  padding-top: 7.5rem;
+  margin-left: -2rem;
+  right: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-data > span:nth-child(1) {
+  font-size: 0.75rem;
+  font-family: 'Poppins';
+  letter-spacing: 0.15rem;
+  color: rgb(122, 122, 122);
+  text-transform: uppercase;
+  line-height: 1.2;
+  align-self: flex-start;
+}
+.item-data > span:nth-child(2) {
+  font-size: 1.625rem;
+  font-family: 'Playfair Display';
+  color: rgb(51, 51, 51);
+  line-height: 1.077;
+  align-self: flex-start;
+}
+
+.item-data > div {
+  display: grid;
+}
+
+.item-data > div > span {
+  font-size: 1.25rem;
+  font-family: 'Poppins';
+  color: rgb(206, 96, 168);
+  padding-top: 2rem;
+  align-self: center;
+}
+
+.item-data > div > button {
+  font-size: 0.6875rem;
+  font-family: 'League Spartan';
+  font-weight: bold;
+  cursor: pointer;
+  letter-spacing: 0.25rem;
+  color: rgb(51, 51, 51);
+  text-transform: uppercase;
+  line-height: 1.333;
+  align-self: center;
+}

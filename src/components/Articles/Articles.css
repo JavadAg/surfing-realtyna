@@ -1,0 +1,8 @@
+.articles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 6.6875rem;
+  align-items: center;
+  padding: 10.9375rem 0 0 0;
+}

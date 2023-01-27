@@ -1,0 +1,24 @@
+.quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.quote > p {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.625rem;
+  color: #333333;
+  letter-spacing: 0.0163rem;
+  line-height: 1.462;
+}
+
+.quote > span {
+  font-size: 0.6875rem;
+  font-weight: bold;
+  font-family: 'League Spartan';
+  letter-spacing: 0.3125rem;
+  color: rgba(51, 51, 51, 0.902);
+  text-transform: uppercase;
+}
