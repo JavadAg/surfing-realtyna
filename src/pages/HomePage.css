@@ -10,5 +10,5 @@
   position: relative;
   width: 0.125rem;
   height: 6.25rem;
-  background-color: #5da8ef;
+  background-color: var(--divider);
 }

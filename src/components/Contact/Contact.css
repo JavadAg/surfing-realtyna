@@ -24,14 +24,14 @@
   font-weight: bold;
   letter-spacing: 0.25rem;
   font-family: 'League Spartan';
-  color: rgba(11, 12, 17, 0.271);
+  color: var(--text-gray);
   text-transform: uppercase;
   text-align: left;
 }
 .contact-data > span:nth-child(2) {
   font-size: 2rem;
   font-family: 'Playfair Display';
-  color: rgb(51, 51, 51);
+  color: var(--text-title);
   font-weight: bold;
   padding-left: 2.8125rem;
   letter-spacing: 0.0313rem;

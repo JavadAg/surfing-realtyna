@@ -11,7 +11,11 @@ const Article = ({
   direction: string
 }) => {
   return (
-    <div className={`${direction === 'left' ? 'article' : 'reverse-article'}`}>
+    <div
+      className={`article ${
+        direction === 'left' ? 'article-left' : 'article-right'
+      }`}
+    >
       <div className='article-data'>
         <span>{data.id}</span>
         <span>{data.title}</span>

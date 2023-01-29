@@ -24,7 +24,7 @@
   font-size: 0.875rem;
   margin: 3.75rem 0 2.5rem 0;
   font-family: 'Poppins';
-  color: rgba(97, 97, 97, 0.651);
+  color: var(--text-lightgray);
   line-height: 1.714;
   text-align: left;
 }

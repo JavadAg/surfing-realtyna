@@ -35,5 +35,5 @@
 .footer-social > * {
   cursor: pointer;
   background-color: transparent;
-  fill: rgb(235, 235, 235);
+  fill: var(--icon-primary);
 }
