@@ -30,3 +30,7 @@
   list-style: none;
   gap: 2.875rem;
 }
+
+.nav-links > li {
+  cursor: pointer;
+}

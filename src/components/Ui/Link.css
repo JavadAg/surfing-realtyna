@@ -33,3 +33,11 @@ a {
   text-align: center;
   transition: all 500ms ease-in-out;
 }
+
+.secondary > a {
+  color: #5da8ef;
+}
+
+.secondary:hover > a {
+  color: var(--text-darkgray) !important;
+}

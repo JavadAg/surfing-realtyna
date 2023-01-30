@@ -1,15 +1,10 @@
-import React from 'react'
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import './Link.css'
 
-const Link = ({ text, color }: { text: string; color?: string }) => {
+const Link = ({ text, secondary }: { text: string; secondary?: boolean }) => {
   return (
-    <div className='link'>
-      <a
-        style={{ color: color }}
-        href=''
-      >
-        {text}
-      </a>
+    <div className={`link ${secondary ? 'secondary' : ''}`}>
+      <a href=''>{text}</a>
     </div>
   )
 }

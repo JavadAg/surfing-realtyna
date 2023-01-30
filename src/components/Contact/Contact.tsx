@@ -21,7 +21,7 @@ const Contact = () => {
         </span>
         <Link
           text='GET IN TOUCH'
-          color='#5da8ef'
+          secondary={true}
         />
       </div>
     </section>
